@@ -1,0 +1,129 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.contenedor{
+    display: flex;
+    margin-left: 300px;
+    width: 800px;
+    height: 600px;
+    flex-direction: column;
+    /* border: 0px; */
+    border-top: 3px solid black;
+    border-right:  3px solid black;
+    border-left: 3px solid black;
+}
+.contenedor2{
+    display: flex; 
+    flex-direction: row;
+}
+.columna1{
+    flex:1;
+}
+.Avatar{
+    height: 250px;
+    width: 180px;
+    border: 3px solid black;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.imgavatar{
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.btnavatar{
+    font-size: 20px;
+    margin-left: 25px;
+
+}
+.nomAvatar{
+    margin-top:30px;
+    font-size: 30px;
+    margin-left: 20px;  
+}
+.columna2{
+    flex: 2;
+    margin-left: 30px;
+}
+.bloque1{
+    height: 50px;
+    /* border-bottom: 3px solid black; */
+    background-color: rgba(181, 167, 149, 0.936);
+}
+.bloque2{
+    height: 80px;
+    width: 600px;
+    margin-left: 80px;
+}
+.bloque3{
+    margin-top: 20px;
+    width: 390px;
+    height: 120px;
+    /* border: 0px; */
+    border: 3px solid black;
+}
+
+.btn{
+    background-color:rgb(223, 223, 117);
+    width: 80px;
+    height: 25px;
+    border-bottom: black;
+    margin-left: 20px;
+    border: 1px solid;
+    box-shadow: 3px 10px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+ul{
+    display:flex;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+li{
+    list-style: none;
+    width: 100px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.texto1{
+    margin-left: 350px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.texto2{
+    height: 40px;
+    padding-left: 20px;
+    font-family: monospace;
+    font-size: 25px;
+    background-color: black;
+    color:white;
+}
+.texto2_1{
+    margin-left: 200px;
+    font-family: monospace;
+    font-size: 25px;
+    color: black;
+}
+.texto3{
+    font-family: monospace;
+    font-size: 15px;
+    margin-right: 15px;
+}
+.texto4{
+    font-family: monospace;
+    font-size: 12px;
+    margin-left: 30px;
+}
+.margen{
+    margin-top: 20px;
+}
+.borde{
+    width: 800px;
+    background-color: rgba(181, 167, 149, 0.936);
+    height: 20px;
+    border: 3px solid black;
+    margin-left: 300px;
+}
